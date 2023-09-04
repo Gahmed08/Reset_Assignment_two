@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    max-width: 1400px;
+    margin: auto;
+}
+.logo{
+    display: flex;
+}
+
+.logo img{
+    width: 86px;
+}

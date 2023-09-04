@@ -1,0 +1,56 @@
+@media screen and (max-width: 576px) {
+    nav{
+        flex-direction: column;
+    }
+    
+    .nav-options{
+        /* width: 30%; */
+        flex-direction: column;
+    
+    }
+
+    .opt{
+        margin-top: 10px;
+    }
+
+    .btn-follow{
+        margin-top: 10px;
+    }
+    
+    .banner-content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    .banner-img img{
+        width: 80%;
+        margin-left: 40px;
+    }
+
+    .banner-content-text{
+        margin-left: 40px;
+        margin-top: 80px;
+    }
+
+    .banner-two{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner-two-img img{
+        width: 100%;
+    }
+    .banner-two-content{
+        text-align: center;
+        
+    }
+
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card p{
+        text-align: center;
+    }
+}

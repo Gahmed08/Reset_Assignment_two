@@ -1,15 +1,206 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Inconsolata:wght@700&family=Merriweather&family=Montserrat&family=Open+Sans&family=Poppins:wght@400;500;600;700&family=Sacramento&family=Space+Mono:wght@400;700&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+
+
+* {
     box-sizing: border-box;
 }
 
-header{
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+:root {
+    --primary-color: #FF42A5;
+}
+
+header,
+main {
     max-width: 1400px;
     margin: auto;
 }
-.logo{
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-title {
+    margin-left: 20px;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.logo img {
+    width: 86px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.nav-options {
+    /* width: 30%; */
+    display: flex;
+    align-items: center;
+
+}
+
+.opt {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.btn-follow {
+    display: flex;
+    align-items: center;
+    background-color: #0B022310;
+    padding: 10px 10px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.btn-follow a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+/* banner start */
+
+.banner-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.banner-text {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.banner-title {
+    font-size: 95px;
+    font-weight: 800;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-sign-in {
+    padding: 21px 40px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 46px;
+}
+
+.btn-go-rogue {
+    padding: 21px 40px;
+    background-color: #4EC5F7;
+    color: white;
+    border: none;
+    border-radius: 46px;
+}
+
+
+/* banner-two start */
+
+
+.banner-two-section {
+    margin-top: 60px;
+}
+
+.banner-two {
     display: flex;
 }
 
-.logo img{
-    width: 86px;
+
+.banner-two-content {
+    text-align: right;
+    margin-top: 50px;
+}
+
+.banner-two-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gammer-text {
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+.btn-know-more {
+    padding: 21px 40px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 46px;
+}
+
+.purpose {
+    font-size: 18px;
+
+}
+
+.tag-line {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+
+/* card section */
+.card-section-title {
+    text-align: center;
+}
+
+.card-heading {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.funny-part {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card-heading-text {
+    font-size: 18px;
+    font-weight: 400;
+    color: #534C64;
+    margin-bottom: 40px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card p{
+    color: #534C64;
 }

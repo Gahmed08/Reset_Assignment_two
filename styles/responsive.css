@@ -1,56 +1,83 @@
 @media screen and (max-width: 576px) {
-    nav{
+    nav {
         flex-direction: column;
     }
-    
-    .nav-options{
+
+    .nav-options {
         /* width: 30%; */
         flex-direction: column;
-    
+
     }
 
-    .opt{
+    .opt {
         margin-top: 10px;
     }
 
-    .btn-follow{
+    .btn-follow {
         margin-top: 10px;
     }
-    
+
     .banner-content {
         flex-direction: column-reverse;
         align-items: center;
     }
-    
-    .banner-img img{
+
+    .banner-img img {
         width: 80%;
         margin-left: 40px;
     }
 
-    .banner-content-text{
+    .banner-content-text {
         margin-left: 40px;
         margin-top: 80px;
     }
 
-    .banner-two{
+    .banner-two {
         flex-direction: column;
         align-items: center;
     }
 
-    .banner-two-img img{
+    .banner-two-img img {
         width: 100%;
     }
-    .banner-two-content{
+
+    .banner-two-content {
         text-align: center;
-        
+
     }
 
-    .cards{
+    .cards {
         flex-direction: column;
         align-items: center;
     }
 
-    .card p{
+    .card p {
         text-align: center;
     }
+
+    .play-instantly {
+        flex-direction: column;
+
+
+    }
+
+    .play-content {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    
+
+    .horse-img {
+        width: 70%;
+        margin-left:100px ;
+    }
+
+    .cat-image {
+        width: 35%;
+        bottom: 130px;
+        left: 30px;
+    }
+
 }

@@ -98,14 +98,12 @@
     }
     
 
-    .type-of-games{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 10px;
+    .type-of-game{
+        margin-bottom: 20px ;
     }
 
     .type-of-game img{
-        width: 30%;
+        width: 20%;
     }
 
     .type-of-game h5 {
@@ -124,8 +122,7 @@
     .footer{
         max-width: 100%;
         margin: auto;
-        text-align: center;
-        margin-top: 100px;
+       
     }
 
     .img-logo img{

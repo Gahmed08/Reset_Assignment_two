@@ -325,7 +325,8 @@ nav {
 
 .type-of-games{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -333,6 +334,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 .type-of-game img{
     padding-left: 10px;
@@ -355,7 +357,7 @@ footer{
     background-color: black;
 }
 .footer{
-   
+   width: 100%;
     text-align: center;
     margin-top: 100px;
 }

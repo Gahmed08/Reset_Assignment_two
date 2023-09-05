@@ -243,7 +243,7 @@ nav {
 .play-instantly {
     display: flex;
     justify-content: space-around;
-    
+
 }
 
 .play-content {
@@ -263,20 +263,89 @@ nav {
     margin-bottom: 0px;
 }
 
-.play-text{
+.play-text {
     font-size: 48px;
     font-weight: 700;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 
-.play-para{
+.play-para {
     color: #534C64;
 }
+
 .cat-image {
     position: relative;
     bottom: 290px;
     left: -150px;
 
 
+}
+
+
+/* -------------------------------------- */
+
+.online-game {
+    display: flex;
+    justify-content: space-around;
+}
+
+.girl-image {
+    position: relative;
+    bottom: 250px;
+    right: -530px;
+
+}
+
+.online-color-text {
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.online-text-content p {
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.online-text-content h6 {
+    color: #534C64;
+}
+
+
+
+/* ------------------------------------- */
+
+.type-of-games{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.type-of-game {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.type-of-game img{
+    padding-left: 10px;
+}
+
+.type-of-game h5 {
+    margin-left: 10px;
+    padding-right: 10px;
+
+}
+
+.type-of-game:hover{
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 38px;
 }

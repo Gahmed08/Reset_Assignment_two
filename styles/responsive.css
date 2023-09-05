@@ -169,4 +169,26 @@
         margin-bottom: 10px;
         
     }
+
+    /* ------------------------------------------ */
+
+
+    .extra-section {
+        margin-bottom: 100px;
+    }
+    .extra {
+        flex-direction: column;
+        align-items: center;
+    }
+    .extra-img-part img {
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .extra-content {
+        padding-right: 40px;
+        padding-left: 40px;
+        margin-left: 0px;
+    }
 }

@@ -1,0 +1,111 @@
+@media screen and (min-width: 576px ) and (max-width:768px) {
+   
+    nav {
+        flex-direction: column;
+    }
+
+    .banner-content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .banner-two {
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-two-content {
+        text-align: center;
+
+    }
+    .cards {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+
+    .play-instantly {
+        flex-direction: column;
+
+
+    }
+
+    .online-game{
+        flex-direction: column-reverse;
+    }
+
+    .extra {
+        flex-direction: column;
+        align-items: center;
+    }
+    .play-content {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    } 
+
+    .horse-img {
+        width: 80%;
+        margin-left:120px ;
+    }
+
+    .cat-image {
+        width: 35%;
+        bottom: 260px;
+        left: 5px;
+    }
+
+    .woman-image{
+        width: 70%;
+        margin-left: 40px;
+    }
+
+    .girl-image{
+        width: 40%;
+        bottom: 230px;
+        left: 400px;
+    }
+    .banner-two-img img {
+        width: 100%;
+    }
+    .banner-img img {
+        width: 80%;
+        margin-left: 40px;
+    }
+
+    .online-text-content{
+        text-align: center;
+    }
+
+
+    .extra-content {
+        padding-right: 50px;
+        padding-left: 50px;
+        margin-left: 0px;
+    }
+
+    .extra-img-part img {
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+
+    .footer{
+        max-width: 100%;
+        margin: auto;
+       
+    }
+
+    .footer-options{
+        flex-wrap: wrap;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }.conditions{
+        flex-wrap: wrap;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+}

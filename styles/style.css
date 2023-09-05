@@ -215,6 +215,12 @@ nav {
     overflow: hidden;
 
 }
+.play-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 .overlay {
     border-radius: 20px;

@@ -246,11 +246,11 @@ nav {
     transform: scale(1.2);
 }
 
-/* play-instantly */
+
 .play-instantly {
     display: flex;
     justify-content: space-around;
-
+    margin-top: 100px
 }
 
 .play-content {

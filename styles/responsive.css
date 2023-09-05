@@ -65,11 +65,11 @@
         text-align: center;
         margin-top: 30px;
         margin-bottom: 40px;
-    } 
+    }
 
     .horse-img {
         width: 70%;
-        margin-left:100px ;
+        margin-left: 100px;
     }
 
     .cat-image {
@@ -78,96 +78,109 @@
         left: 30px;
     }
 
-    .online-game{
+    .online-game {
         flex-direction: column-reverse;
     }
 
-    .woman-image{
+    .woman-image {
         width: 70%;
         margin-left: 40px;
     }
 
-    .girl-image{
+    .girl-image {
         width: 35%;
         bottom: 110px;
         left: 245px;
     }
 
-    .online-text-content{
+    .online-text-content {
         text-align: center;
     }
-    
 
-    .type-of-game{
-        margin-bottom: 20px ;
+
+    .type-of-game {
+        margin-bottom: 20px;
+        justify-content: center;
+        margin-bottom: 20px;
     }
-
-    .type-of-game img{
+    .type-of-games {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3px;
+    }
+    .type-of-game img {
         width: 20%;
+        padding-left: 2px;
     }
 
     .type-of-game h5 {
         margin-left: 5px;
+        font-size: 8px;
+        font-weight: 500;
         padding-right: 5px;
         margin-top: 0px;
         margin-bottom: 0px;
+        margin-left: 3px;
     }
 
-    .type-of-game:hover{
+    .type-of-game:hover {
         border: 2px solid var(--primary-color);
         color: var(--primary-color);
         border-radius: 28px;
     }
+
     /* ------------------------------------------------------ */
-    .footer{
+    .footer {
         max-width: 100%;
         margin: auto;
-       
+
     }
 
-    .img-logo img{
+    .img-logo img {
         object-fit: cover;
-        height:20px
+        height: 20px
     }
-    
-    .footer-title{
+
+    .footer-title {
         margin-left: 20px;
         font-size: 25px;
         font-weight: 700;
         color: white;
     }
 
-    .footer-options{
+    .footer-options {
         flex-wrap: wrap;
         margin-left: 10px;
         margin-right: 10px;
         margin-bottom: 20px;
     }
-    .footer-options p{
+
+    .footer-options p {
         margin-left: 20px;
         margin-top: 5px;
         margin-bottom: 2px;
     }
-    .conditions{
+
+    .conditions {
         flex-wrap: wrap;
         margin-left: 20px;
         margin-right: 20px;
         margin-top: 20px;
     }
 
-    .conditions p{
+    .conditions p {
         margin-top: 5px;
         margin-bottom: 0px;
-        
+
     }
 
-    .footer-last-line{
+    .footer-last-line {
         margin-top: 20px;
     }
 
-    .footer-icons{
+    .footer-icons {
         margin-bottom: 10px;
-        
+
     }
 
     /* ------------------------------------------ */
@@ -176,10 +189,12 @@
     .extra-section {
         margin-bottom: 100px;
     }
+
     .extra {
         flex-direction: column;
         align-items: center;
     }
+
     .extra-img-part img {
         width: 100%;
         margin-top: 50px;
